@@ -32,20 +32,17 @@ In addition, it shows your remaining recommended intake and the number of calori
 ## Setup and Installation 
 ##### Clone the repository: 
  ```bash
-https://github.com/clarametto/calorieTracker.git
+https://github.com/limu2030/CalorieTracker.git
 ```
 ##### Navigate into the folder and install requirements 
  ```bash
-cd calorie-tracker, pip install -r requirements.txt
+cd calorie-tracker
 ```
 ##### Install and activate Virtual 
  ```bash
-- python3 -m venv virtual - source virtual/bin/activate
+- pipenv shell
 ```
-##### Install Dependencies 
- ```bash
- pip install -r requirements.txt
-```
+
 ##### Setup Database 
   SetUp your database User,Password, Host then make migrate
  ```bash
