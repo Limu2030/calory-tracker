@@ -10,6 +10,7 @@ from datetime import date
 from datetime import datetime
 from .filters import FoodFilter
 
+
 #home page view
 @login_required(login_url='login')
 def HomePageView(request):
@@ -73,7 +74,7 @@ def LoginPage(request):
 			password = request.POST.get('password')
 			user = authenticate(request,username=username,password=password)
 			if user is not None:
-				login(request,user)
+				login(request)
 				return redirect('home')
 			else:
 				messages.info(request,'Username or password is incorrect')
