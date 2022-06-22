@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+psycopg2 = "*"
+whitenoise = "*"
+pillow = "*"
+requests = "*"
+python-decouple = "*"
+gunicorn = "*"
+fontawesome = "*"
+fontawesome-free = "*"
+fontawesomefree = "*"
+djangorestframework = "*"
+django-tinymce = "*"
+django-registration = "*"
+django-heroku = "*"
+django-filter = "*"
+django-crispy-forms = "*"
+cloudinary = "*"
+django-bootstrap4 = "*"
+django-cloudinary-storage = "*"
+beautifulsoup4 = "*"
+dj-database-url = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
